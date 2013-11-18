@@ -26,7 +26,7 @@ Example POST
 (gpx_file has been truncated for clarity)
 
 ```
-request=upload_activity&gpx_file=<?xml...&status=public&description=My weekend run&activity=running
+request=upload_activity&gpx_file=<?xml...&status=public&description=My%20weekend%20run&activity=running
 ```
 
 
