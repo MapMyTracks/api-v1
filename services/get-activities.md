@@ -7,6 +7,7 @@ Get a list of a user's activities.
 Parameters
 ----
 `request` The request identifier. To perform this API request, set this to 'get_activities'.
+
 `author` The user's username. 
 
 
