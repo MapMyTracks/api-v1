@@ -14,7 +14,7 @@ The XML response contains the current system time.
 Example POST
 ---
 
-`request = get_time`
+`request=get_time`
 
 Returns the current system time.
 
