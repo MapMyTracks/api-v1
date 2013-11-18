@@ -13,10 +13,9 @@ Parameters
 
 Example POST
 ----
-```
-request = get_activities
-author = rsmith
-```
+`
+request=get_activities&author=rsmith
+`
 
 Returns a complete list of user's activities.
 
