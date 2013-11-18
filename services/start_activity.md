@@ -53,17 +53,13 @@ If the request was successful, the XML response will contain a unique activity i
 
 Example POST
 ----
-request = start_activity
-title = My activity
-tags = training, whitstable
-privacy = public
-activity = running
-source = My app
-points = 51.3704583333333 1.15737333333333 1.345 1198052842 51.3704586 
-1.1573741 1.345 1198052844
+```
+request=start_activity&title=My%20activity&tags=training,whitstable&privacy=public&activity=running&source=My%20app&points=51.3704583333333%201.15737333333333%201.345 1198052842%2051.3704586%201.1573741%201.345%201198052844
+```
+
 Returns a message containing the newly created activity id.
 
-*Reponse:**
+**Reponse:**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
