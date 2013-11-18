@@ -8,7 +8,7 @@ The API consists of a number of services which are accessed by sending a HTTP PO
 
 **Data retrieval**
 * [Get activities](services/get_activities.md)
-* [Get activity]
+* [Get activity](services/get_activity.md)
 
 **Tracking**
 * [Start activity]
