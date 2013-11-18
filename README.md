@@ -1,4 +1,4 @@
-api
+Map My Tracks API
 ===
 
 Map My Tracks provides a simple interface that allows developers to access and update their activity data. You can use this API to make your own widgets or applications that seamlessly integrate Map My Tracks with other services.
