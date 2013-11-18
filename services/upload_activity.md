@@ -26,12 +26,7 @@ Example POST
 (gpx_file has been truncated for clarity)
 
 ```
-request=upload_activity&gpx_file=<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-             <?xml-stylesheet type="text/xsl" href="details.xsl"?>
-                <gpx version="1.0" creator=...
-status=public&
-description=My weekend run&
-activity=running
+request=upload_activity&gpx_file=<?xml...&status=public&description=My weekend run&activity=running
 ```
 
 
