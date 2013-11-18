@@ -31,18 +31,12 @@ Returns - If the request was successful, the XML response will contain a message
 Example POST
 ---
 ```
-request = update_activity
-activity_id = 9346
-points = 51.3704583333333 1.15737333333333 1.345 1198052842 51.3704586 
-1.1573741 1.345 1198052844
-hr = 80 1198052842 90 1198052848
-cad = 33 1198052842 44 1198052848
-pwr = 110 1198052842 125 1198052848
+request=update_activity&activity_id=9346&points=51.3704583333333%201.15737333333333%201.345%201198052842%2051.3704586%201.1573741%201.345%201198052844hr=80%201198052842%2090%201198052848&cad=33%201198052842%2044%201198052848&pwr=110%201198052842%20125%201198052848
 ```
 
 Returns a message indicating that the activity has been updated.
 
-*Reponse:**
+**Reponse:**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
