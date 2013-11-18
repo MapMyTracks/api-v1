@@ -12,12 +12,15 @@ Parameters
 
 
 Example POST
-`
+----
+```
 request = get_activities
 author = rsmith
-`
+```
 
 Returns a complete list of user's activities.
+
+**Response:**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
