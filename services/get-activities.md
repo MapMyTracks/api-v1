@@ -5,17 +5,19 @@ Get a list of a user's activities.
 
 
 Parameters
-request	The request identifier. To perform this API request, set this to 'get_activities'.
-author	The user's username.
+----
+`request` The request identifier. To perform this API request, set this to 'get_activities'.
+`author` The user's username. 
+
 
 Example POST
-<code>
+`
 request = get_activities
 author = rsmith
-</code>
+`
 
 Returns a complete list of user's activities.
-<code>
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
 	<author>Rob</author>
@@ -37,4 +39,4 @@ Returns a complete list of user's activities.
 		</activity3>
 	</activities>
 </message>
-</code>
+```
