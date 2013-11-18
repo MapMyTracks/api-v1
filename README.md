@@ -11,7 +11,7 @@ The API consists of a number of services which are accessed by sending a HTTP PO
 * [Get activity](services/get_activity.md)
 
 **Tracking**
-* [Start activity]
+* [Start activity](services/start_activity.md)
 * [Update activity]
 * [Stop activity]
 * [Get time]
