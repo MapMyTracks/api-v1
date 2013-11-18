@@ -12,14 +12,14 @@ Returns the XML reponse will contain a message indicating that the activity has 
 
 Example POST
 ---
-`
-request=stop_activity&
-`
+`request=stop_activity`
 
 Returns a message indicating that the activity has been stopped.
 
 **Response:**
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
 	<type>activity_stopped</type>
 </message>
+```
