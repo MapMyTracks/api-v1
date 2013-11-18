@@ -12,7 +12,7 @@ The API consists of a number of services which are accessed by sending a HTTP PO
 
 **Tracking**
 * [Start activity](services/start_activity.md)
-* [Update activity]
+* [Update activity](services/update_activity.md)
 * [Stop activity]
 * [Get time]
 
