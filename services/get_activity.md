@@ -15,7 +15,7 @@ The id of an activity, as returned by the activities API service.
 `from_time`
 A UNIX timestamp from which location data will be returned.
 
-Returns a list of positional data for the given activity, limited to 100 points, and a flag identifiying if the activity is live. Points are formatted in space delimeted blocks. Each block consists of the unixtime at which the location was recorded, followed by the location's latitude, longitude and altitude.
+Returns a list of positional data for the given activity, limited to 100 points, a note from the author and a flag identifiying whether the activity is live. Points are formatted in space delimeted blocks. Each block consists of the unixtime at which the location was recorded, followed by the location's latitude, longitude and altitude.
 
 To get all location data within an activity with more than 100 points, call the API multiple times and modify the start_from parameter to suit.
 
@@ -29,9 +29,13 @@ Returns the first 100 points for an activity.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
+	<type>activity</type>
+	<note>
+		<![CDATA[ A bit cold this morning ]]>
+	</note>
 	<complete>Yes</complete>
 	<points>
-	1198052842,51.3704583333333,1.15737333333333,1.345 1198052846,51.370465,...
+		1198052842,51.3704583333333,1.15737333333333,1.345 1198052846,51.370465,...
 	</points>
 </message>
 ```
