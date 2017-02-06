@@ -9,6 +9,8 @@ The API consists of a number of services which are accessed by sending a HTTP PO
 **Data retrieval**
 * [Get activities](services/get_activities.md)
 * [Get activity](services/get_activity.md)
+* [Get activity comments](services/get_activity_comments.md)
+* [Get activity tags](services/get_activity_tags.md)
 
 **Tracking**
 * [Start activity](services/start_activity.md)
@@ -18,3 +20,6 @@ The API consists of a number of services which are accessed by sending a HTTP PO
 
 **Data input**
 * [Upload activity](services/upload_activity.md)
+
+**Data delete**
+* [Delete activity](services/delete_activity.md)
