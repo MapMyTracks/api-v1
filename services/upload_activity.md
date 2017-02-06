@@ -17,7 +17,7 @@ Indicates if this activity is to be public or privately visible. Possible values
 The request identifier. To perform this API request, set this to 'get_time'.
 
 `activity`
-The activity type. Possible values are "running", "cycling", "mountain biking", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "stand up paddle boarding" and "nordic walking".
+The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "stand up paddle boarding" and "nordic walking".
 
 Returns an XML formatted replay indicating success or failure
 
