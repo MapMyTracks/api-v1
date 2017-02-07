@@ -30,13 +30,19 @@ Example POST
 request=upload_activity&gpx_file=<?xml...&status=public&description=My%20weekend%20run&activity=running
 ```
 
-
-Returns, if successful.
-
+**Success:**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
 	<type>success</type>
 	<id>12345678</id>
+</message>
+```
+
+**Error:**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+	<type>error</type>
 </message>
 ```
