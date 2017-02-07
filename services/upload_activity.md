@@ -14,7 +14,7 @@ A GPX file formatted representation of the activity
 Indicates if this activity is to be public or privately visible. Possible values are "public" and "private".
 
 `description`
-The request identifier. To perform this API request, set this to 'get_time'.
+A short description of the activity.
 
 `activity`
 The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "stand up paddle boarding" and "nordic walking".
