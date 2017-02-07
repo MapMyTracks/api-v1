@@ -26,3 +26,18 @@ The username and password provided must match the respective activity's author i
   <type>activity_deleted</type>
 </message>
 ```
+
+**Error:**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <type>invalid_activity_id</type>
+</message>
+```
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <type>unauthorized</type>
+</message>
+```
