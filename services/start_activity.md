@@ -16,7 +16,7 @@ The title of the new activity. The title must be no longer that 100 characters.
 Indicates if this activity is to be public or privately visible. Possible values are "public" and "private".
 
 `activity`
-The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "swimming", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "snowshoeing", "nordic walking", "jet skiing" and "powerboating".
+The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "hand cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "swimming", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "snowshoeing", "nordic walking", "jet skiing", "powerboating" and "wheelchair".
 
 `points`
 A list of points indicating the location(s) that this track is to be initiated with. The list of points should be space delimited in blocks containing latitude, longitude, altitude, and time data. These blocks are themselves space delimited.
