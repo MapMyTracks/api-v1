@@ -17,7 +17,7 @@ Indicates if this activity is to be public or privately visible. Possible values
 A short description of the activity.
 
 `activity`
-The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "swimming", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "snowshoeing", "nordic walking", "jet skiing" and "powerboating".
+The activity type. Possible values are "running", "cycling", "mountain biking", "indoor cycling", "hand cycling", "sailing", "walking", "hiking", "driving", "motor racing", "off road driving", "motorcycling", "enduro", "skiing", "cross country skiing", "swimming", "canoeing", "kayaking", "sea kayaking", "stand up paddle boarding", "rowing", "windsurfing", "kiteboarding", "orienteering", "mountaineering", "skating", "skateboarding", "longboarding", "horse riding", "hang gliding", "gliding", "flying", "snowboarding", "paragliding", "hiking", "hot air ballooning", "snowshoeing", "nordic walking", "jet skiing", "powerboating" and "wheelchair".
 
 Returns an XML formatted replay indicating success or failure.
 If success, returns the entry_id for the new activity.
