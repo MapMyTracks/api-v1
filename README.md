@@ -6,6 +6,9 @@ Overview
 ---
 The API consists of a number of services which are accessed by sending a HTTP POST to the Map My Tracks API URL at <code>http://www.mapmytracks.com/api/</code>. All requests require basic HTTP authentication using a valid Map My Tracks username and password. All API requests will be assigned to the user's account. The API responds with an XML formatted message. The content of this message will be dependent on the type of request that was made.
 
+**Members**
+* [Get user](services/get_user.md)
+
 **Data retrieval**
 * [Get activities](services/get_activities.md)
 * [Get activity](services/get_activity.md)
