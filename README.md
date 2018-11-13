@@ -8,6 +8,7 @@ As of January 1, 2019 all API endpoints relating to live tracking will require t
 
 - start_activity
 - update_activity
+- stop_activity
 
 Use get_user to verify if the user is a PLUS member.
 
