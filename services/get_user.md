@@ -15,7 +15,7 @@ Example POST
 request=get_user
 `
 
-Returns a list of user's latest activities.
+Returns information about a user.
 
 **Response:**
 ```
