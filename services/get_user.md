@@ -21,7 +21,7 @@ Returns a list of user's latest activities.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <message>
-	<type>user</type>
+  <type>user</type>
   <plus>true</plus>
   <screen_name><![CDATA[ John Smith ]]></screen_name>
 </message>
